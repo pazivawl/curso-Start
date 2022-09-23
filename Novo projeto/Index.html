@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica de criação de Formulario</title>
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+   
+    <div>
+        <h1> freeCodeCamp Survey Form</h1>
+        <h2> thank you for taking the time to help us improve the platform</h2>
+    </div>
+    <form id="pg">        
+        
+        
+        <fieldset id="txt">
+            <div >
+                <label for="Name"><strong>Name</strong></label>
+                <input type="text" value="Name" required>
+                
+            </div>
+            <div >    
+                <label for="Email"><strong>Email</strong></label>
+                <input type="email" value="Email" required>
+                
+            </div>
+            <div>    
+                <label for="Age"><strong> Age</strong><span id="fr" >(optional)</span></label>
+                <input type="number" min="10" max="99">
+                
+            </div>
+        </fieldset>
+        <fieldset id="op">
+            <div>    
+                <label for="option"><strong>Which option best describes your current role?</strong></label>
+                <select name="option" id="option">
+                    <option selected disabled value="Select current role">Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="Full time job">Full time job</option>
+                    <option value="Full time learner">Full time learner</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                    <option value="Other">Other</option>
+                </select> 
+            </div>
+            <div id="fri">
+                <label><strong>Would you recommend freeCodeCamp to a friend?</strong></label>
+                <br>
+                <input type="radio" id= "Definitely" name="friend" checked>
+                <label for="Definitely">Definitely</label>
+                <br>
+                <input type="radio" id= "Maybe" name="friend">
+                <label for="Maybe">Maybe</label>
+                <br>
+                <input type="radio" id= "Not sure" name="friend">
+                <label for="Not sure">Not sure</label>
+            </div>    
+            <div>
+                <label><strong>What is your favorite feature of freeCodeCamp?</strong></label>
+                <select name="favorite">
+                    <option selected disabled value="Select an option">Select an option</option>
+                    <option>Challenges</option>
+                    <option>Projects</option>
+                    <option>Commrnity</option>
+                    <option>Open Source</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset id="check">
+            <strong>What would you like to see improved? (Check all that apply)</strong>
+            <br>
+            <input type="checkbox" id="option1" name="option1">
+            <label for="option1">Front-end Projects</label>
+            <br>
+            <input type="checkbox" id="option2" name="option2">
+            <label for="option2">Back-end Projects</label>
+            <br>
+            <input type="checkbox" id="option3" name="option3">
+            <label for="option3">Data Visualization</label>
+            <br>
+            <input type="checkbox" id="option4" name="option4">
+            <label for="option4">Challenges</label>
+            <br>
+            <input type="checkbox" id="option5" name="option5">
+            <label for="option5">Open Source Community</label>
+            <br>
+            <input type="checkbox" id="option6" name="option6">
+            <label for="option6">Gitter help rooms</label>
+            <br>
+            <input type="checkbox" id="option7" name="option7">
+            <label for="option7">Videos</label>
+            <br>
+            <input type="checkbox" id="option8" name="option8">
+            <label for="option8">City Meetups</label>
+            <br>
+            <input type="checkbox" id="option9" name="option9">
+            <label for="option9">Wiki</label>
+            <br>
+            <input type="checkbox" id="option10" name="option10">
+            <label for="option10">Forum</label>
+            <br>
+            <input type="checkbox" id="option11" name="option11">
+            <label for="option11">Additional Courses</label>
+        </fieldset>
+        <div id="textarea">
+            <label for="comment">Any comments or suggestions?</label>
+            <textarea  name="comment" id="comment"></textarea>
+            <button class="botao" type="submit" onsubmit="">Submit</button>
+        </div>  
+    </form>
+</body>
+</html>

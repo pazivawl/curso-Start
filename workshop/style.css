@@ -1,0 +1,68 @@
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+header ul li{
+    display:inline-flex;
+    margin-top: 25px;
+    padding-right: 10px;
+   
+}
+header ul li a{
+    color: rgb(215 5 5);
+    font-size: larger;
+    padding: 8px;
+    font-weight: bold;
+}
+main img{
+    width: 100%;
+    height: 700px;
+}
+#informaçoes{
+    top: -582px;
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top: -200px;
+}
+footer div{
+    margin-top: 10px;
+    border-top: solid;
+    border-color:rgb(30 33 37 / 42%);
+}
+footer div ul{
+    position: relative;
+    display: inline-flex;
+
+}
+footer div ul li{
+    margin-right: 30px;
+}
+footer div ul li img{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+#contatos{
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    top: -300px;
+}
+#contatos ul{
+    font-size: x-large;
+}

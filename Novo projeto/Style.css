@@ -1,0 +1,133 @@
+/*
+Theme Name: 
+Theme URI: 
+Author: Kenzie Academy BR
+Author URI: ;
+Description: Descrição do thema.
+Version: 1.0
+--------------------------------------------
+ESTRUTURA BASE
+--------------------------------------------
+**** DECLARAÇÃO DE VARIAVEIS
+**** ESTILOS GERAIS
+**** BODY
+**** HEADER
+**** FOOTER
+**** PÁGINA INICIAL
+**** EXTRAS
+**** @MEDIA
+font-family: 'Open Sans', sans-serif;
+*/
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    }
+/**** DECLARAÇÃO DE VARIAVEIS*/
+/**** ESTILOS GERAIS*/
+/**** BODY*/
+body{
+    background-image: url("assets/Pessoas.png.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Open sans', sans-serif;
+    justify-content: center;
+    padding: 20px;
+    
+}
+div h1, h2{
+    text-align: center;
+}
+#pg{
+    background-color: rgb(117, 117, 117,0.5);
+    padding: 40px;
+    font-size: 1.5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+fieldset{
+    border: 0;
+}
+div{
+    padding-top: 20px;
+}
+#txt div{
+    display: grid;
+}
+input[type="text"], [type="email"], [type="number"]  {
+    padding: 4px;
+}
+#fr{
+    font-size: 1rem;
+}
+#op div {
+    display: grid;
+}
+#op select {
+    height: 30px;
+} 
+div#fri {
+    display: block;
+}
+#fri input{
+    height: 20px;
+    width: 20px;
+}
+#check input{
+    height: 20px;
+    width: 20px;
+}
+#textarea{
+    padding-left: 20px;
+}
+#textarea textarea{
+    display: flex;
+    width: 95%;
+    height: 150px;
+
+}
+.botao{
+    width: 95%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+@media (max-width:480px){
+ body{
+     padding: 0%;
+ }
+ h1,h2{
+     padding: 10px;
+ }
+ div{
+     padding-top: 10px;
+ }
+    #pg{
+    padding: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+ }
+
+}
+@media (max-width: 960px){
+    #pg{
+        padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+}
+@media (min-width: 960px){
+    #pg{
+    padding: 40px;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+}
